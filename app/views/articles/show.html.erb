@@ -1,3 +1,6 @@
+
+<h1><%= @article.title %></h1>
+
 <p>
   Tags:
   <% @article.tags.each do |tag| %>
@@ -5,7 +8,6 @@
   <% end %>
 </p>
 
-<h1><%= @article.title %></h1>
 <p><%= @article.body %></p>
 <%= render partial: 'comments/form' %>
 
