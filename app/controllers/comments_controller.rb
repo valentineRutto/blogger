@@ -14,7 +14,7 @@ redirect_to article_path(@comment.article)
 #
 #         redirect_to articles_path(@article)
 #
-#    end
+ end
 #    
 
 def comment_params
