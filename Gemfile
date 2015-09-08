@@ -36,6 +36,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'bcrypt', '~> 3.1.7'
 gem "paperclip"
 
+gem 'rails_12factor', group: :production
 # Use Unicorn as the app server
 # gem 'unicorn'
 
@@ -55,3 +56,4 @@ group :development do
   gem 'spring'
 end
 
+ruby "1.9.3"
